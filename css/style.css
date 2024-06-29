@@ -1,0 +1,47 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+
+section {
+min-height: calc(100vh - 3.5rem);
+}
+
+button:hover {
+    background-color: #1A8754 !important;
+    color: #fff !important;
+    border: 5px solid #1A8754 !important;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.763);
+    background-color: #212529;
+    font-weight: 400;
+}
+
+footer p a {
+    color: rgba(255, 255, 255, 0.763);
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+}
+
+footer p a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer p a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #fff;
+}
+

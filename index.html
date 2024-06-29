@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="home bg-white bg-body-secondary">
+            <div class="container text-center d-flex align-items-start justify-content-center h-100">
+                <div class="home-content p-3 w-100 my-5">
+                    <div class="screen">
+                        <h1 class="display-1 fw-bolder">Quote of the Day</h1>
+                        <p class="fs-5">Press the button below to recieve a random quote!</p>
+                        <button onclick="getRandom()" class="btn border-5 btn-primary btn-lg">New Quote</button>
+                    </div>
+                    <div id="output" class="output bg-warning my-3">
+                        <p class="fs-2"></p>
+                        <p class="fs-4"></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <footer>
+            <p class="text-center py-3 m-0">© 2024 Designed and developed by <a href="https://www.linkedin.com/in/moamenmokhtar-co/" target="_blank">Moamen Mokhtar</a></p>
+        </footer>
+
+    </main>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
